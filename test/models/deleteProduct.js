@@ -1,7 +1,7 @@
 const Products = require('../../src/db');
 const assert = require('assert');
 
-describe.only('Delete Product', () => {
+describe('Delete Product', () => {
     let prID;
     beforeEach('Add 1 pr into Collection Products', async () => {
         const pr = new Products({name: 'thanh'});
