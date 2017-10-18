@@ -1,0 +1,29 @@
+{
+  "name": "test_mocha_supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vqthanh1412489/test_mocha_supertest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vqthanh1412489/test_mocha_supertest/issues"
+  },
+  "homepage": "https://github.com/vqthanh1412489/test_mocha_supertest#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.3",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
